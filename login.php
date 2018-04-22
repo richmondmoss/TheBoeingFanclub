@@ -13,15 +13,7 @@
     $username_error = '';
     $password_error = '';
 
-    if ($username === 'Webmaster' && $password === 'runninginthe90s') {
-        $_SESSION['auth'] = true;
-        header('Location: admin.php');
-    }
-
-    if ($username !== 'Webmaster')
-        $username_error = 'Invalid username!';
-    if ($password !== 'runninginthe90s')
-        $password_error = 'Invalid password!';
+    // Removed
 
 ?>
 <!DOCTYPE html>
